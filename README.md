@@ -19,6 +19,11 @@
  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and here is  the data to download: 
  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
   
+## Summarization Details
+ To summarize i've used the dplyr packege. First organizing the data with group_by function using 
+Activity and Subject Variables. The result then is applied to summirise_each dplyr function extracting each column means.
+For each Activity and Subject group has one mean value associated.
+
 
 ##   Instructions to execute the script: 
 
